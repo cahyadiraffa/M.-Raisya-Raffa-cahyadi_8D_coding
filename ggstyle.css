@@ -1,0 +1,98 @@
+body {
+    font-family: verdana,arial,helvetica,sans-serif;
+    background-image: url(hitam.jpg);
+    background-size: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin: auto;
+    padding: 20px;
+}
+
+.text1 {
+    font-family: verdana,helvetica,sans-serif;
+    font-size: 20px;
+}
+
+#box_nav_left {
+    position: absolute;
+    height: 450px;
+    width: 250px;
+    left: 20px;
+    top: 70px;
+    padding: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: pink;
+}
+
+#stylelink_left
+{
+    display: block;
+    font-size: 12pt;
+    border-bottom: 1px;
+    color: #606060;
+    height: 50px;
+    width: 200px;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+}
+
+#box_nav_center {
+    position: absolute;
+    height: 438px;
+    width: 490px;
+    left: 330px;
+    top: 70px;
+    padding: 10px;
+    border-left-width: 1px;
+    border-left-color: pink;
+    border-right-width: 1px;
+    border-right-color: pink;
+    border-top-color: pink;
+    border-top-width: 1px;
+}
+
+#box_nav_right {
+    position: absolute;
+    height: 450px;
+    width: 350px;
+    left: 870px;
+    top: 70px;
+    padding: 20px;
+    border-left-width: 1px;
+    border-left-color: pink;
+    border-left-style: dashed;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: pink;
+}
+
+.a-content {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    width: 320px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 80px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.link {
+    color: white;
+    font-family: verdana,helvetica,sans-serif;
+}
+
+.und {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
