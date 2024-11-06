@@ -20,6 +20,9 @@ body {
     left: 20px;
     top: 70px;
     padding: 20px;
+    border-right-width: 1px;
+    border-right-color: white;
+    border-right-style: dashed;
 }
 
 #stylelink_left
@@ -43,9 +46,6 @@ body {
     left: 330px;
     top: 70px;
     padding: 10px;
-    border-left-width: 1px;
-    border-left-color: pink;
-    border-left-style: dashed;
 }
 
 #box_nav_right {
@@ -56,7 +56,7 @@ body {
     top: 70px;
     padding: 20px;
     border-left-width: 1px;
-    border-left-color: pink;
+    border-left-color: white;
     border-left-style: dashed;
 }
 
