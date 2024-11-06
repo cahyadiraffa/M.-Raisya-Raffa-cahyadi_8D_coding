@@ -45,10 +45,7 @@ body {
     padding: 10px;
     border-left-width: 1px;
     border-left-color: pink;
-    border-right-width: 1px;
-    border-right-color: pink;
-    border-top-color: pink;
-    border-top-width: 1px;
+    border-left-style: dashed;
 }
 
 #box_nav_right {
